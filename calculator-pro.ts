@@ -6,7 +6,7 @@ const greeting = (): void => {
   alert(`${greet} and the ${display}`);
 };
 
-const isInteger = (resultNumber: any): number => {
+const isInteger = (resultNumber: number): number => {
   if (Number.isInteger(resultNumber)) {
     return resultNumber;
   } else {
@@ -80,4 +80,3 @@ greeting();
 do {
   askUserName();
 } while (!cancel);
-
